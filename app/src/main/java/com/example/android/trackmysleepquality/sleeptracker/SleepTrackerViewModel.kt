@@ -241,7 +241,7 @@ class SleepTrackerViewModel(
         get() = _navigateToSleepDataQuality
 
     fun onSleepNightClicked(id: Long){
-        navigateToSleepDataQuality.value = id
+        _navigateToSleepDataQuality.value = id
     }
 
     fun onSleepDataQualityNavigated(){
