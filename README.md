@@ -4,7 +4,7 @@ An Android application that uses a RecyclerView to track and display the user's 
 
 Submitted by: **Richard Salvaty**
 
-Time spent: **1.5 Hours**
+Time spent: **3 Hours**
 
 ## User Stories
 
