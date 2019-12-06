@@ -1,4 +1,4 @@
-# <name of app>
+# Sleep Tracker RV3 
 
 An Android application that uses a RecyclerView to track and display the user's sleep quality.
 
