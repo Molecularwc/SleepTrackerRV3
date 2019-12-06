@@ -69,8 +69,8 @@ class SleepTrackerFragment : Fragment() {
         val adapter = SleepNightAdapter(SleepNightListener { nightId -> sleepTrackerViewModel.onSleepNightClicked(nightId) })
         binding.sleepList.adapter = adapter
 
-        sleepTrackerViewModel.navigateToSleepQuality.observe(this, Observer { night -> night?.let {
-            this.findNavController().navigate(SleepTrackerFragmentDirections.actionSleepTrackerFragmentToSleepDetailFragment(night.nightId))
+        sleepTrackerViewModel.navigateToSleepDataQuality.observe(this, Observer { night -> night?.let {
+            this.findNavController().navigate(SleepTrackerFragmentDirections.actionSleepTrackerFragmentToSleepDetailFragment(night))
             sleepTrackerViewModel.onSleepDataQualityNavigated()
         } })
 
